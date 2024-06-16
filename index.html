@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/06d1c14985.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="pag-principal">
+  <!-- CABECERA -->
+    <header id="cabecera">
+      <div class="bottom-nav">
+        <a class="nav-link" onclick="paginaPrincipal()" title="pagina principal" alt="ir a pagina inicio">
+            <span class="icon">
+              <i class="fa-house fa-solid fa-xl"></i>
+            </span>
+        </a>
+        <a class="nav-link" onclick="obtenerGeneros()" title="proximos estenos" alt="ir a pagina proximos estenos">
+          <span class="icon">
+            <i class="fa-icons fa-solid fa-xl"></i>
+          </span>
+        </a>
+        <a class="nav-link" onclick="miLista()" title="mi lista" alt="ir a pagina mi lista">
+          <span class="icon">
+            <i class="fa-star fa-solid fa-xl"></i>
+          </span>
+        </a>
+        <a class="nav-link" onclick="" title="perfil" alt="ir a mi perfil">
+          <span class="icon">
+            <i class="fa-user fa-solid fa-xl"></i>
+          </span>
+        </a>
+    </div>
+    </header>
+    <!-- FIN CABECERA -->
+    <!-- INICIO CONTENIDO -->
+    <div id="container" class="container pag-peliculas">
+      
+    </div>
+    <div style="height: 50px;"></div>
+    <!-- FIN CONTENIDO -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- JAVASCIPT -->
+  <script src="js/peliculas.js"></script>
+  </body>
+</html>
